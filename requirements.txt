@@ -1,0 +1,5 @@
+pytest==3.2.2
+Flask==1.1.2
+marshmallow==3.8.0
+xgboost==1.2.1
+pandas==1.1.3
