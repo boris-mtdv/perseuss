@@ -1,6 +1,7 @@
 # Setup
 Make sure you have python 3.8 and pip installed, or alternatively miniconda3.
 Create a conda environment and activate it.
+
 run "pip install -r requirements.txt"
 
 ## Running the program
@@ -12,6 +13,7 @@ python -m pytest
 
 ## Docker
 docker build --tag=name_of_the_app
+
 docker run -p 5000:5000 name_of_the_app
 
 ## example payload for request
