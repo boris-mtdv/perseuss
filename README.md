@@ -23,3 +23,8 @@ data=json.dumps({
         }),
         content_type='application/json',
     )
+    
+    
+## Future improvements:
+1) Deploy app on kubernetes cluster to scale up.
+2) Implement better logging (and save logs to file) for improved traceability.
